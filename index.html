@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Jakub Kowalski — photographer. People, places, stories. @jakyb11">
+  <title>Jakub Kowalski — Photographer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Playfair+Display:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="header">
+    <a class="brand" href="#home">JAKUB KOWALSKI</a>
+    <nav id="nav" class="nav"><a href="#work">Work</a><a href="#about">About</a><a href="#journal">Journal</a><a href="#contact">Contact</a></nav>
+    <button class="menu" aria-label="Toggle navigation" aria-expanded="false">☰</button>
+  </header>
+  <main>
+    <section class="hero" id="home">
+      <img class="hero-photo" src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=2000&q=90" alt="Editorial portrait placeholder">
+      <div class="hero-shade"></div>
+      <div class="hero-content">
+        <p class="eyebrow">Photographer · @jakyb11</p>
+        <h1>People<br>Places<br>Stories<span>.</span></h1>
+        <div class="short-rule"></div>
+        <p class="hero-note">A visual diary of<br>people, places and quiet moments.</p>
+        <a class="scroll-link" href="#work" aria-label="Scroll to selected work">↓</a>
+      </div>
+      <p class="hero-credit">BASED IN POLAND · AVAILABLE WORLDWIDE</p>
+    </section>
+    <section class="work section" id="work">
+      <div class="section-top">
+        <p class="eyebrow">Selected work / 2022—26</p>
+        <div class="heading-line"><h2>Portfolio</h2><p>A selection of stories, seen slowly.</p></div>
+      </div>
+      <div class="filters" aria-label="Filter projects">
+        <button class="filter active" data-filter="all">All</button><button class="filter" data-filter="people">People</button><button class="filter" data-filter="places">Places</button><button class="filter" data-filter="lifestyle">Lifestyle</button><button class="filter" data-filter="editorial">Editorial</button>
+      </div>
+      <div class="gallery">
+        <article class="project project-large" data-category="people"><button class="photo-button" data-title="In the Afternoon" data-meta="People / 2026"><img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=1200&q=85" alt="Portrait in warm late-afternoon light"><span class="photo-label">01 — In the Afternoon <i>↗</i></span></button></article>
+        <article class="project project-offset" data-category="places"><button class="photo-button" data-title="Coastal Light" data-meta="Places / 2024"><img src="https://images.unsplash.com/photo-1500375592092-40eb2168fd21?auto=format&fit=crop&w=1200&q=85" alt="Ocean waves meeting a rocky coast"><span class="photo-label">02 — Coastal Light <i>↗</i></span></button></article>
+        <article class="project" data-category="lifestyle"><button class="photo-button" data-title="The Quiet Hours" data-meta="Lifestyle / 2025"><img src="https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&w=1200&q=85" alt="Sunlit minimal living room"><span class="photo-label">03 — The Quiet Hours <i>↗</i></span></button></article>
+        <article class="project project-wide" data-category="places"><button class="photo-button" data-title="A Place to Return" data-meta="Places / 2025"><img src="https://images.unsplash.com/photo-1516483638261-f4dbaf036963?auto=format&fit=crop&w=1800&q=85" alt="Coastal village on a hillside"><span class="photo-label">04 — A Place to Return <i>↗</i></span></button></article>
+        <article class="project project-offset" data-category="editorial"><button class="photo-button" data-title="Soft Structure" data-meta="Editorial / 2025"><img src="https://images.unsplash.com/photo-1529139574466-a303027c1d8b?auto=format&fit=crop&w=1200&q=85" alt="Minimal fashion editorial portrait"><span class="photo-label">05 — Soft Structure <i>↗</i></span></button></article>
+        <article class="project" data-category="people"><button class="photo-button" data-title="Between Friends" data-meta="People / 2024"><img src="https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=crop&w=1200&q=85" alt="Natural-light portrait"><span class="photo-label">06 — Between Friends <i>↗</i></span></button></article>
+      </div>
+      <p class="gallery-endnote">A few frames from a much bigger story. <span>↓</span></p>
+    </section>
+    <section class="about section" id="about">
+      <div class="about-image"><img src="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&w=1000&q=85" alt="Photographer portrait placeholder"></div>
+      <div class="about-text">
+        <p class="eyebrow">A little about me</p><h2>Looking for<br>the <em>in-between.</em></h2>
+        <p class="lead">I’m Jakub — a photographer drawn to the honest details that make a moment feel like a memory.</p>
+        <p>My work moves between portraiture, travel and everyday life. I’m interested in natural light, quiet gestures, and images that feel lived in rather than staged.</p>
+        <a class="underlined-link" href="#contact">More about my approach <span>↗</span></a>
+      </div>
+    </section>
+    <section class="journal section" id="journal">
+      <div class="journal-heading"><p class="eyebrow">Notes from the field</p><h2>Occasional <em>observations.</em></h2></div>
+      <a class="journal-row" href="#contact"><span>01 / 2026</span><strong>On learning to look a little longer</strong><span class="journal-arrow">↗</span></a>
+      <a class="journal-row" href="#contact"><span>02 / 2025</span><strong>A camera, a train, and nowhere to be</strong><span class="journal-arrow">↗</span></a>
+      <a class="journal-row" href="#contact"><span>03 / 2025</span><strong>Finding the story in ordinary light</strong><span class="journal-arrow">↗</span></a>
+    </section>
+    <section class="contact section" id="contact">
+      <p class="eyebrow">Have something in mind?</p><h2>Let’s make<br><em>something meaningful.</em></h2>
+      <div class="contact-row"><p>Available for editorial, commercial<br>and personal projects.</p><a class="email" href="https://instagram.com/jakyb11" target="_blank" rel="noreferrer">@jakyb11 <span>↗</span></a></div>
+      <div class="contact-bottom"><span>Poland · Available worldwide</span><div><a href="https://instagram.com/jakyb11" target="_blank" rel="noreferrer">Instagram @jakyb11 ↗</a></div></div>
+    </section>
+  </main>
+  <footer class="footer"><a class="brand" href="#home">JAKUB KOWALSKI</a><span>© <span id="year"></span> — All images and stories reserved.</span><a href="#home">Back to top ↑</a></footer>
+  <dialog class="lightbox"><button class="lightbox-close" aria-label="Close preview">×</button><img class="lightbox-image" src="" alt=""><div class="lightbox-meta"><h2></h2><p></p></div></dialog>
+  <script src="script.js"></script>
+</body>
+</html>
